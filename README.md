@@ -1,1 +1,1 @@
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
+Analyze the text length, character count, and more with book bot!
