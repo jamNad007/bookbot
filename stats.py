@@ -1,11 +1,13 @@
 from utils import get_book_text
 
+# function to capture the total word count in a book
 def count_words(text):
     book = get_book_text(text)
     words = book.split()
     word_count = len(words)
     return word_count
 
+# function to capture the total character count in a book
 def charactersCount(text):
     book = get_book_text(text)
     lower_case_text = book.lower()
@@ -17,6 +19,7 @@ def charactersCount(text):
             char_dict[char] += 1
     return char_dict
 
+# function that counts alphabetic characters in a book, and sorts them in descending order
 def countSortWords(text):
     text_dict = charactersCount(text)
     char_list = []
